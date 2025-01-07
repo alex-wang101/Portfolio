@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Alex's personal profolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c983aad47.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#services">Interesting Engineering News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://drive.google.com/file/d/1m8DL-QZAbV5mQxGl_RPn6mXhC4SKKzB9/view?usp=drive_link
+                    " target="_blank">Resume</a></li>
+                <a href="https://www.linkedin.com/in/alex-wang101" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Data analyst/product manager</p>
+            <h1> Hello! My Name is</h1>
+            <div class="wrapper">
+            <ul class="dynamic-texts">
+                <li><span>Alex Wang.</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<!--------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="profile.png">
+            </div>
+            <div class="about-col-2">
+                <h2 class = "sub-title" id = "reference1">About me</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p class = "first-page">I am a first year student at the <span class="yellow-text">University of Waterloo (Go warriors!!).</span> </p>
+            <p class = "first-page">At the University of Waterloo, I am enrolled in Management Engineering. My career aspect align with systems optimization, 
+                data analytics, product/project management, as well as front-end development. Throughout my journey in 
+                computer science, I have always been fascinated by concepts such as machine learning and artificial intelligence, 
+                as these areas of studies brought me to computer science in the first place. 
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                <p class="tab-links" onclick="opentab('education-details', event)">Education details</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li>
+                        <span>
+                            <u><span style="color: #306998;">Pyt</span><span style="color: #FFD43B;">hon</span></u>
+                        </span>
+                        <br>
+                        Used libraries such as pandas to create dataframe, matplotlib to graphically represent the dataframe used in pandas, and SQL/sqlite3 for advanced database sorting.
+                    </li>
+                    <li>
+                        <span><u style="color: #4CAF50;">VBA</u></span><br>Created an interactive financial planning tool through implementing VBA in userforms and modules.
+                    </li>
+                    <li>
+                        <span>
+                            <u><span style="color: #ff5733;">HTML/</span><span style="color: #264de4;">CSS</span></u>
+                        </span>
+                        <br>
+                        Created a portfolio website (the one you are currently on right now!) with redirections and interactive buttons. 
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><u><span style = "color: rgb(71, 124, 228)">UW Blueprint</span></u>
+                    <br>
+                    From September 2024-current, I led the school funding team in UW Blueprint, ensuring financial sustainability of the organization. 
+                    While leading the team, I mastered communicative skills such as cold-emailing, goal-pitching, 
+                    </li>
+                    <li><u><span style = "color: rgb(230, 88, 112)">Oakville Youth Group</span></u>
+                        <br>
+                        In Janurary 2022, I saw a dire need of support for children in foster care in my community.
+                        I decided to create and lead a non-profit that hosts local events to fundraise and provide financial support the children in need. 
+                        In our fundraisers, I used Google Sheets to organize the contribution of each member, as well as using pivot tables and graphs to visualize
+                        our progress in our projects.
+                        </li>
+                </ul>
+        </div>
+        <div class="tab-contents" id="education-details">
+            <ul>
+                <li><u><span style = "color: rgb(231, 74, 231)">Engineering Society</span></u>
+                <br>
+                As a representative for the University of Waterloo Engineering Society, 
+                I voted for my program's student body for various initiatives aimed at supporting students and enhancing the engineering community. 
+                
+                </li>
+                <li><u><span style = "color: rgb(230, 88, 112)">Waterloo Math Competitions</span></u>
+                    <br>
+                    During highschool, I took every single Waterloo math competition possible to hone my analytical and problem-solving skills.
+                    I was able to recieve top quartile for every single grade 12 math contest (CSMC, Euclid).
+                    </li>
+            </ul>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-----------portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" id="reference2">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="vba.png">
+                <div class="layer">
+                    <h3>Financial Planning Tool</h3>
+                    <p>A tool featuring income/expenses input that sorts and analyzes your monthly transactions</p>
+                    <a href="https://github.com/alex-wang101/Financial-planning-tool" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="python.png"> 
+                <div class="layer">
+                    <h3>Fraud Detection System</h3>
+                    <p>A comprehensive Fraud Detection System designed to identify and analyze suspicious transactions using advanced data analytics techniques.</p>
+                    <a href="https://github.com/alex-wang101/Transaction-sorting-fraud-detection" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="bossbaby.jpg">
+                <div class="layer">
+                    <h3>Upcoming Project 🤫</h3>
+                    <p>?????????</p>
+                    <a href="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa25tdnljYzJzYTlsdHE0eG43Y3duYnVhaTZxZWl1Y2RhZmFpZGhtYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/duzpaTbCUy9Vu/giphy.webp" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/alex-wang101" class="btn" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</div>
+<!-------my philosophy-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Interesting Engineering news</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-server"></i>
+                <h2>Quantum computing</h2>
+                <p>"The Quantum Race: Innovations and Future Prospects"</p>
+                <a href="https://www.jomfruland.net/quantum-leap-ahead-racing-towards-a-new-computing-era/" target="_blank" style="text-decoration: underline;">Expand</a>
+            </div>
+            <div>
+                <i class="fas fa-robot"></i>
+                <h2>AI Hardware</h2>
+                <p>"MIT Engineers Pioneer "High-Rise" 3D Chips for Next-Gen AI Hardware"</p>
+                <a href="https://news.mit.edu/2024/mit-engineers-grow-high-rise-3d-chips-1218" target="_blank" style="text-decoration: underline">Expand</a>
+            </div>
+            <div>
+                <i class="fas fa-headset"></i>
+                <h2>Cloud Gaming</h2>
+                <p>"LG Xbox Cloud Gaming Partnership 2025"</p>
+                <a href="https://www.prnewswire.com/news-releases/lg-and-xbox-partner-to-expand-cloud-gaming-experience-on-lg-smart-tvs-302343224.html"t arget="_blank" style="text-decoration: underline">Expand</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me!</h1>
+                <p><i class="fas fa-paper-plane"></i>wangalex0410@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>(437)766-9166</p>
+            </div>
+            <div class="contact-right">
+            <span id="email-success">Email successfully Sent</span>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Alex Wang <i class="fas fa-yin-yang"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname, event) {
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+<script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxZXN8EROk1wR6B7HLUnmjdMFRBiMfGEVFjqAXgAZQmFmXEg8k54GNioBM1svoPWoMC/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const successMessage = document.getElementById("email-success");
+  
+    form.addEventListener('submit', (e) => {
+        e.preventDefault(); 
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+
+                successMessage.style.display = "block";
+                
+                setTimeout(() => {
+                    successMessage.style.display = "none";
+                }, 3000);
+                
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+</body>
+</html>
+  

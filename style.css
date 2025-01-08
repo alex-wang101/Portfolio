@@ -14,12 +14,12 @@ body{
 }
 
 #header{
-    width: 100;
+    width: 100%;
     height: 100vh;
     background-image: url(background1.png);
-    background-size: 70%;
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: calc(100% + 175px) 125px;
+    background-position: calc(75% + 100px);
 }
 .container{
     padding:10px 10%;
